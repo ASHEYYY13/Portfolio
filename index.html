@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aswin's Portfolio</title>
-   <link rel="shortcut icon" href="/assests/icons/favicon.ico" type="image/x-icon">
-   <link rel="stylesheet" href="/css/color.css">
-   <link rel="stylesheet" href="/css/style.css">
-   <link rel="stylesheet" href="/css/animate.css">
+   <link rel="shortcut icon" href="./assests/icons/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="./css/color.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/animate.css">
 </head>
 <body>
     <div id="hero">
-        <h5>Hello, I'm</h5>
+        <h5 id="main-content">Hello, I'm</h5>
         <h1>Aswin Salomon Raja</h1>
-        <p>Web Developer</p>
+        <p id="main-content">Web Developer</p>
         <div id="hero-animation">
             <div id="hero-image">
             </div>
@@ -36,8 +36,9 @@
                         <p class="card-content-text">
                             Gained hands-on experience in understanding server configurations,
                             networking setups, and data center <br>
-                            Learned about the various components and infrastructure that ensure the
-                            smooth functioning of data centers.
+                            
+                            <!-- Learned about the various components and infrastructure that ensure the
+                            smooth functioning of data centers. -->
                         </p>
                     </div>
                     <div class="card-content">
@@ -50,10 +51,121 @@
                         <p class="card-content-text">
                             Bharath Institute of Higher Education
                             and Research, 2021-2025 <br>
-                            CGPA: 8.2/10,demonstrating consistent academic performances and strong 
-                            foundation in core subjects, of Computer science an Engineering
+                            CGPA: 8.2/10 <br>
+                            <a href="./assests/icons/Aswin.pdf" download  class="resume">Download CV</a>
+                            <!-- ,demonstrating consistent academic performances and strong  -->
+                            <!-- foundation in core subjects, of Computer science an Engineering -->
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div id="grid-top-right">
+            <div id="grid-top-right-btn">Skills</div>
+            <div id="grid-top-right-content">
+                <div class="card-experience">
+                        <article class="experience-skills">
+                            <h2>Frontend Development</h2>
+                            <div>
+                                <img src="./assests/icons/checkmark.png" alt="skills-checkmark" class="icon">
+                                <div>
+                                    <h2>HTML</h2>
+                                    <p>Experienced</p>
+                                </div>
+                            </div>  
+                            <div>
+                                <img src="./assests/icons/checkmark.png" alt="skills-checkmark" class="icon">
+                                <div>
+                                    <h2>CSS</h2>
+                                    <p>Experienced</p>
+                                </div>
+                            </div>  
+                            <div>
+                                <img src="./assests/icons/checkmark.png" alt="skills-checkmark" class="icon">
+                                <div>
+                                    <h2>Javascript</h2>
+                                    <p>Intermediate</p>
+                                </div>
+                            </div>  
+                            <div>
+                                <img src="./assests/icons/checkmark.png" alt="skills-checkmark" class="icon">
+                                <div>
+                                    <h2>Git & Github</h2>
+                                    <p>Experienced</p>
+                                </div>
+                            </div>  
+
+                        </article>
+                        <article class="experience-skills">
+                            <h2>Programming Languages</h2>
+                            <div>
+                                <img src="./assests/icons/checkmark.png" alt="skills-checkmark" class="icon">
+                                <div>
+                                    <h2>Java</h2>
+                                    <p>Intermediate</p>
+                                </div>
+                            </div>  
+                            <div>
+                                <img src="./assests/icons/checkmark.png" alt="skills-checkmark" class="icon">
+                                <div>
+                                    <h2>Python</h2>
+                                    <p>Intermediate</p>
+                                </div>
+                            </div>  
+                            <div>
+                                <img src="./assests/icons/checkmark.png" alt="skills-checkmark" class="icon">
+                                <div>
+                                    <h2>SQL</h2>
+                                    <p>Intermediate</p>
+                                </div>
+                            </div>  
+                            <div>
+                                <img src="./assests/icons/checkmark.png" alt="skills-checkmark" class="icon">
+                                <div>
+                                    <h2>C,C++</h2>
+                                    <p>Basic</p>
+                                </div>
+                            </div>  
+
+                        </article>       
+                </div>
+            </div>
+        </div>
+        <div id="grid-bottom-left">
+            <div id="grid-bottom-left-btn">Projects</div>
+            <div id="grid-bottom-left-content">
+                <div id="grid-bottom-left-project">
+                        <div class="project p-1">
+                            <img src="assests/portfolio-projects/project-1-dark.png" alt="projects-1" class="project-image">
+                            <h2 class="project-name">AshZone</h2>
+                            <Button class="btn" onclick="window.location.href=`https://ashzone-60031093924.development.catalystserverless.in/app/index.html`">Demo</Button>
+                            <Button class="btn" onclick="window.location.href=`https://github.com/ASHEYYY13/ASHZONE`">Github</Button>
+                        </div>
+                        <div class="project p-2">
+                            <img src="assests/portfolio-projects/project-2-dark.png" alt="projects-2" class="project-image">
+                            <h2 class="project-name">Booksky</h2>
+                            <Button type="button" class="btn" onclick="window.location.href=`https://bookskyy13.netlify.app/`">Demo</Button>
+                            <Button type="button" class="btn" onclick="window.location.href=`https://github.com/ASHEYYY13/Booksky`">Github</Button>
+                        </div>
+                           <!-- <div class="project p-3">
+                            <img src="assests/portfolio-projects/project-3-dark.png" alt="projects-3" class="project-image">
+                            <h2 class="project-name">AshZone</h2>
+                            <Button class="btn" onclick="window.location.href=``">Demo</Button>
+                            <Button class="btn" onclick="window.location.href=``">Github</Button>
+                        </div> -->
+                        <Button class="arrow" onclick="navigateproject(-1)">&#10094</Button>
+                        <Button class="arrow" onclick="navigateproject(1)">&#10095</Button>
+                </div>
+            </div>
+        </div>
+        <div id="grid-bottom-right">
+            <div id="grid-bottom-right-btn">Contact</div>
+            <div id="grid-bottom-right-content">
+                <h5 class="contact-text">Get In Touch</h5>
+                <h2 class="contact-text">Contact Me</h2>
+                <div>
+                    <button class="btn btn-contact" onclick="window.location.href=`mailto:aswinsalomon4321@gmail.com`">Email</button>
+                    <button class="btn btn-contact" onclick="window.location.href=`https://www.linkedin.com/in/aswinsalomon`">LinkedIn</button>
                 </div>
             </div>
         </div>
@@ -64,7 +176,7 @@
 
 
 </body>
-<script src="/js/animate.js"></script>
-<script src="/js/slideshow.js"></script>
-<script src="/js/color.js"></script>
+<script src="./js/animate.js"></script>
+<script src="./js/slideshow.js"></script>
+<script src="./js/color.js"></script>
 </html>
